@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navbar1 {
+    height: 50px;
+    background-color: rgba(4, 2, 13, 0.355);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(dlsat_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/**box2**/
+.name {
+    color: rgb(244, 19, 19);
+    font-size: 200%;
+   
+}
+.name1 {
+    color: rgb(176, 31, 31);
+    font-size: 100%;
+  
+}
+
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border :none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width:45px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid pink;
+}
+
+.table1{
+    width: 82vw;
+    height: 90vw;
+    background-color: rgba(149, 98, 98, 0.333);
+    box-shadow: 0 .4rem .8rem;   
+    border-radius: .8rem;
+  
+}
+.table-header1{
+    width: 100%;
+    height: 10%;
+   background-color: hsla(247, 74%, 32%, 0.855);
+   padding: .8rem 1rem;
+   backdrop-filter: (7px);
+   color: white;
+   text-align: center;
+ overflow:hidden;
+}
+.table-body1{
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    background-color: bisque;
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+}
+
+th img {
+    width: 36px;
+    height: 36px;
+    margin-inline: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+td img {
+    width: 36px;
+    height: 36px;
+    margin-inline: .5px;
+    border-radius: 50%;
+    vertical-align: middle;
+   
+}
+
+.table{
+ width: 82vw;
+ height: 90vw;
+ background-color: rgba(237, 31, 31, 0.333);
+ box-shadow: 0 .4rem .8rem;   
+ border-radius: .8rem;
+ backdrop-filter: (7px);
+ overflow:hidden;
+ display: contents;
+   
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    padding: 1rem;
+}
+.table-header {
+    width: 100%;
+    height: 10%;
+   background-color: rgb(233, 110, 110);
+   padding: .8rem 1rem;
+   text-align: center;
+}
+.table-body{
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    background-color: bisque;
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+}
+
+table, th, td {
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #8f3b3b;
+}
+.table-body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.table-body::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+   background-color: #8f3b3bc2;
+   visibility: hidden;
+}
+.table-body:hover:-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(91, 64, 30, 0.312);
+  
+}
+tbody tr:hover{
+    background-color: white;
+}
+/* .rules{
+    width: 100%;
+    height: 10%;
+   background-color: rgb(12, 55, 10);
+   padding: .8rem 1rem;
+   text-align: center;
+}
+.rule{
+    width: 100%;
+    height: 10%;
+   background-color: rgba(12, 55, 10, 0.702);
+   padding: .8rem 1rem;
+}
+.time{
+    height: 40px;
+    width: 100%;
+    color:red;
+}
+.rule1{
+    width: 100%;
+    height: 10%;
+   background-color: rgba(12, 55, 10, 0.557);
+   padding: .8rem 1rem;
+} */
+
+article{
+    background-color: #37475a;
+ 
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.rules{
+    width: 500px;
+    background: rgb(6, 94, 49);
+    padding: 20px;
+    margin: 0, auto;
+  
+}
+.rules h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.rules p{
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+/* #check{
+    display: none; */
+
+/* .rule{
+    display: none;
+    transition: 0.5s;
+} */
+label{
+    display: inline-block;
+    margin-top: 15px;
+    color: aqua;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* #check:checked ~ .rule{
+    display: block;
+}
+#check:checked ~ .label{
+    visibility: hidden;
+}
+#check:checked ~ .label:after{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+} */
+
+
+
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo1 {
+    background-image: url(dlsat_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.wrapper{
+    display: inline-flex;
+}
+.fb-group{
+    color: azure;
+}
+.fb-page{
+    color: white;
+}
+
